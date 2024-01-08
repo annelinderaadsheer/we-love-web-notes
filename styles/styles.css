@@ -1,0 +1,70 @@
+/* Colors */
+:root {
+  --primary-bg-color: #f1cfb7;
+  --secondary-bg-color: #f5ddcb;
+}
+
+/* Fonts */
+:root {
+  --bold-font: "HaltonBold", sans-serif;
+  --regular-font: "HaltonRegular", sans-serif;
+  --light-font: "HaltonLight", sans-serif;
+  --text-color: #000000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  font-family: "Helvetica";
+}
+
+article {
+  background-color: var(--secondary-bg-color);
+}
+
+hr {
+  color: var(--text-color);
+  background-color: var(--text-color);
+}
+
+h1 {
+  color: var(--text-color);
+}
+
+section {
+  width: 80%;
+  background-color: var(--secondary-bg-color);
+  padding: 20px;
+  /* treats divs as text */
+  display: inline-block;
+  text-align: left;
+  border-radius: 5px;
+}
+
+.link-btn {
+  background-color: var(--primary-bg-color);
+  font-family: var(--bold-font);
+  color: var(--text-color);
+  font-size: 12px;
+  padding: 1em;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  margin: 1em 0 1em 0;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.btn {
+  color: var(--text-color);
+  position: absolute;
+  font-size: 50px;
+  transition: transform 0.3s ease-in-out;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 50px;
+}
