@@ -19,6 +19,7 @@ html {
 body {
   background-color: var(--primary-bg-color);
   font-family: "Helvetica";
+  font-size: 14px;
 }
 
 article {
@@ -58,7 +59,7 @@ section {
   cursor: pointer;
 }
 
-.btn {
+/* .btn 
   color: var(--text-color);
   position: absolute;
   font-size: 50px;
@@ -66,5 +67,11 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  margin: 50px;
+  margin: 50px; */
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  body {
+    font-size: 12px;
+    margin: 2em;
+  }
 }
